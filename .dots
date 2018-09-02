@@ -51,25 +51,28 @@ function runDots() {
             echo ""
             echo "------------------------------"
             echo "Setting sensible OSX defaults."
+            echo "Switch off for now"
             echo "------------------------------"
             echo ""
-            ./osx.sh
+            # ./osx.sh
         fi
         if [ $ARG == "pydata" ] || [ $ARG == "all" ]; then
             # Run the pydata.sh Script
             echo "------------------------------"
             echo "Setting up Python data development environment."
+            echo "Switch off for now"
             echo "------------------------------"
             echo ""
-            ./pydata.sh
+            # ./pydata.sh
         fi
         if [ $ARG == "aws" ] || [ $ARG == "all" ]; then
             # Run the aws.sh Script
             echo "------------------------------"
             echo "Setting up AWS development environment."
+            echo "Switch off for now"
             echo "------------------------------"
             echo ""
-            ./aws.sh
+            # ./aws.sh
         fi
         if [ $ARG == "datastores" ] || [ $ARG == "all" ]; then
             # Run the datastores.sh Script
@@ -91,9 +94,10 @@ function runDots() {
             # Run the android.sh Script
             echo "------------------------------"
             echo "Setting up Android development environment."
+            echo "Switch off for now"
             echo "------------------------------"
             echo ""
-            ./android.sh
+            # ./android.sh
         fi
     done
 
